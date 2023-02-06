@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# https://github.com/StalkR/misc/blob/master/crypto/crc32.py
+
 """Calculate and manipulate CRC32.
 http://en.wikipedia.org/wiki/Cyclic_redundancy_check
 -- StalkR
