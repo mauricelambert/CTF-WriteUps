@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker Blog - Login</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #0F0;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        form {
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #0F0;
+            border-radius: 10px;
+            background-color: #111;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #0F0;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            background-color: #222;
+            color: #0F0;
+            border: 1px solid #0F0;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #00F;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0077CC;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #000;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="POST">
+        <h2>Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+
+    <footer>
+        &copy; 2023 Hacker Blog
+    </footer>
+</body>
+</html>
+
