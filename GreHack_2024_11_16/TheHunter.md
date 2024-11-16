@@ -16,7 +16,7 @@ Wait the end of the analyze, identify users and downloaded data:
  - *Data Sources* -> *the_hunter.raw* -> *the_hunter.raw* -> *vol2 (Linux (0x83): 2048-39942143)* -> *home*
  - Identify the only one user: `coffinxp`
  - Check in */home/coffinxp/Downloads*
-     - There are multiples hack tools downloaded: `tor`, `burpsuite`, *vs code*, *go* to compile multiples hacktool, *jython* for BurpSuite extension
+     - There are multiples hack tools downloaded: `tor`, `burpsuite`, *vs code*, *go* to compile multiples hacktools, *jython* for BurpSuite extension
  - Check in */home/coffinxp/Documents*
      - There are multiples git repositories cloned in */home/coffinxp/Documents/tools*:
          - `fuff`
@@ -373,6 +373,6 @@ if tkn:
     s(tkn, discord_channel_id, fc)
 ```
 
-Okay so this malware exfiltrate informations on a discord bot, we can add a `breakpoint()` before the `requests.post` to performs a `GET` request with same headers and same URL to get the flag.
+Okay so this malware exfiltrate informations on a discord bot, we can add a `breakpoint()` before the `requests.post` to performs a `GET` request with same headers and same URL to get the flag (i have try to performs the `POST` request, without my Linux configurations, but this is not working too, with the same error code).
 
-But i don't have the flag because the discord API returns a error 401... I ask to admin, it's the good way, but i can't flag, probably the the limit is exceeded for the bot API key.
+But i don't have the flag because the discord API returns an error 401... I ask to admin, it's the good way, but i can't get the flag, probably the the limit is exceeded for the bot API key (no solve on the last 2 hours for this challenge).
