@@ -1,5 +1,9 @@
 # The Hunter
 
+> A friend of you, started to learn cybersecurity, but after trying hacking, it started to see some suspicious things on his computer.
+> Can you help him to find out what's happening?
+>> Password of his machine is: coffinxp:hunter123
+
 We have a OVA file (6.7 GB, sha256: `bbb2cf614a6893a994f53f4fada8a0f9374ab8fba39d1b8e5b5077b5fa8267c6`).
 
 Convert it to raw disk and import it autopsy:
